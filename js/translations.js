@@ -60,6 +60,11 @@ const TRANSLATIONS = {
     'garanties.g6_title': 'Lifetime Support',
     'garanties.g6_desc':  'We remain available after adoption. Education, nutrition, health questions — we are here.',
 
+    // Life strip
+    'life.caption1': 'Joy every day',
+    'life.caption2': 'A companion for life',
+    'life.caption3': 'Unconditional love',
+
     // Galerie
     'galerie.eyebrow': 'In Pictures',
     'galerie.title':   'Life at the Breeding',
@@ -178,6 +183,11 @@ const TRANSLATIONS = {
     'garanties.g5_desc':  "Votre chiot repart avec sa nourriture, son jouet et son couverture — pour faciliter la transition vers sa nouvelle maison.",
     'garanties.g6_title': 'Suivi à vie',
     'garanties.g6_desc':  "Nous restons disponibles après l'adoption. Questions d'éducation, de nutrition, de santé — nous sommes là.",
+
+    // Life strip
+    'life.caption1': 'La joie au quotidien',
+    'life.caption2': 'Un compagnon pour la vie',
+    'life.caption3': 'Un amour inconditionnel',
 
     // Galerie
     'galerie.eyebrow': 'En images',
