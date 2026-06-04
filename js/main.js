@@ -108,10 +108,10 @@ function buildPuppyCard(puppy, index) {
   const age    = puppy.age[lang];
   const badge  = puppy.available ? puppy.badge[lang] : t['puppy.reserved'];
 
-  const waMsg  = t['puppy.wa_msg']
+  const waMsg  = TRANSLATIONS.en['puppy.wa_msg']
     .replace('{name}',   puppy.name)
-    .replace('{gender}', gender)
-    .replace('{age}',    age)
+    .replace('{gender}', puppy.gender.en)
+    .replace('{age}',    puppy.age.en)
     .replace('{price}',  puppy.price);
   const waLink = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(waMsg)}`;
 
