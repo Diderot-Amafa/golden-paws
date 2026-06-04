@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Golden Paws — Élevage familial de Golden Retriever de pure race. Chiots LOF, vaccinés, vermifugés, socialisés. Livraison possible. Contactez-nous sur WhatsApp." />
-  <meta property="og:title" content="Golden Paws | Chiots Golden Retriever de Pure Race" />
-  <meta property="og:description" content="Adoptez votre futur compagnon de vie. Chiots Golden Retriever LOF, élevés avec amour en famille." />
+  <meta name="description" content="Golden Paws — Family Golden Retriever breeding. LOF puppies, vaccinated, dewormed, socialized. Delivery possible. Contact us on WhatsApp." />
+  <meta property="og:title" content="Golden Paws | Pure-Bred Golden Retriever Puppies" />
+  <meta property="og:description" content="Adopt your future life companion. LOF Golden Retriever puppies, raised with love in a family." />
   <meta property="og:image" content="images/hero-bg.jpg" />
-  <title>Golden Paws | Chiots Golden Retriever de Pure Race</title>
+  <title>Golden Paws | Pure-Bred Golden Retriever Puppies</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,15 +25,16 @@
       </a>
 
       <nav class="nav" id="nav">
-        <a href="#chiots" class="nav__link">Nos chiots</a>
-        <a href="#about" class="nav__link">Notre élevage</a>
-        <a href="#galerie" class="nav__link">Galerie</a>
-        <a href="#temoignages" class="nav__link">Avis</a>
-        <a href="#faq" class="nav__link">FAQ</a>
-        <a href="https://wa.me/237671597988?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20un%20chiot%20Golden%20Retriever%20%F0%9F%90%BE" target="_blank" class="btn btn--whatsapp nav__cta">
+        <a href="#chiots" class="nav__link" data-i18n="nav.puppies">Our Puppies</a>
+        <a href="#about" class="nav__link" data-i18n="nav.breeding">Our Breeding</a>
+        <a href="#galerie" class="nav__link" data-i18n="nav.gallery">Gallery</a>
+        <a href="#temoignages" class="nav__link" data-i18n="nav.reviews">Reviews</a>
+        <a href="#faq" class="nav__link" data-i18n="nav.faq">FAQ</a>
+        <a href="https://wa.me/237671597988?text=Hello%2C%20I%20am%20interested%20in%20a%20Golden%20Retriever%20puppy%20%F0%9F%90%BE" target="_blank" class="btn btn--whatsapp nav__cta">
           <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          Nous contacter
+          <span data-i18n="nav.contact">Contact us</span>
         </a>
+        <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">🇫🇷 FR</button>
       </nav>
 
       <button class="burger" id="burger" aria-label="Menu">
@@ -47,18 +48,18 @@
     <div class="hero__bg" style="background-image: url('images/hero-bg.jpg')"></div>
     <div class="hero__overlay"></div>
     <div class="container hero__content">
-      <span class="hero__badge">Élevage Familial ✦ Depuis 2014</span>
-      <h1 class="hero__title">Votre futur compagnon<br /><em>vous attend</em></h1>
-      <p class="hero__subtitle">Des chiots Golden Retriever de pure race, élevés avec amour,<br />vaccinés, vermifugés et socialisés dès la naissance.</p>
+      <span class="hero__badge" data-i18n="hero.badge">Family Breeding ✦ Since 2014</span>
+      <h1 class="hero__title" data-i18n-html="hero.title">Your future companion<br /><em>is waiting for you</em></h1>
+      <p class="hero__subtitle" data-i18n-html="hero.subtitle">Pure-bred Golden Retriever puppies, raised with love,<br />vaccinated, dewormed and socialized from birth.</p>
       <div class="hero__actions">
-        <a href="#chiots" class="btn btn--primary btn--lg">Voir nos chiots disponibles</a>
-        <a href="https://wa.me/237671597988?text=Bonjour%2C%20je%20souhaite%20en%20savoir%20plus%20sur%20vos%20chiots%20Golden%20Retriever%20%F0%9F%90%BE" target="_blank" class="btn btn--outline-white btn--lg">
+        <a href="#chiots" class="btn btn--primary btn--lg" data-i18n="hero.cta_primary">See our available puppies</a>
+        <a href="https://wa.me/237671597988?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20puppies%20%F0%9F%90%BE" target="_blank" class="btn btn--outline-white btn--lg">
           <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          WhatsApp
+          <span data-i18n="hero.cta_wa">WhatsApp</span>
         </a>
       </div>
     </div>
-    <a href="#stats" class="hero__scroll" aria-label="Défiler">
+    <a href="#stats" class="hero__scroll" aria-label="Scroll down">
       <span></span>
     </a>
   </section>
@@ -68,20 +69,20 @@
     <div class="container stats__grid">
       <div class="stat reveal">
         <span class="stat__number" data-target="180">0</span>
-        <span class="stat__label">Familles heureuses</span>
+        <span class="stat__label" data-i18n="stats.families">Happy Families</span>
       </div>
       <div class="stat reveal">
         <span class="stat__number" data-target="12">0</span>
-        <span class="stat__label">Ans d'expérience</span>
+        <span class="stat__label" data-i18n="stats.experience">Years of Experience</span>
       </div>
       <div class="stat reveal">
         <span class="stat__number" data-target="100">0</span>
         <span class="stat__suffix">%</span>
-        <span class="stat__label">Chiots LOF certifiés</span>
+        <span class="stat__label" data-i18n="stats.certified">LOF Certified Puppies</span>
       </div>
       <div class="stat reveal">
         <span class="stat__number" data-target="2">0</span>
-        <span class="stat__label">Ans de garantie santé</span>
+        <span class="stat__label" data-i18n="stats.warranty">Years Health Warranty</span>
       </div>
     </div>
   </section>
@@ -90,13 +91,13 @@
   <section class="section chiots" id="chiots">
     <div class="container">
       <div class="section__header reveal">
-        <span class="section__eyebrow">Disponibles maintenant</span>
-        <h2 class="section__title">Nos chiots Golden Retriever</h2>
-        <p class="section__desc">Chaque chiot est unique. Cliquez sur la fiche qui vous touche pour nous contacter directement.</p>
+        <span class="section__eyebrow" data-i18n="puppies.eyebrow">Available Now</span>
+        <h2 class="section__title" data-i18n="puppies.title">Our Golden Retriever Puppies</h2>
+        <p class="section__desc" data-i18n="puppies.desc">Each puppy is unique. Click on the profile that catches your heart to contact us directly.</p>
       </div>
 
       <div class="puppies__grid" id="puppies-grid">
-        <!-- Généré par JS -->
+        <!-- Generated by JS -->
       </div>
     </div>
   </section>
@@ -105,43 +106,43 @@
   <section class="section about" id="about">
     <div class="container about__inner">
       <div class="about__image reveal">
-        <img src="images/about.jpg" alt="Notre élevage familial" loading="lazy" />
+        <img src="images/about.jpg" alt="Our family breeding" loading="lazy" />
         <div class="about__badge-card">
           <span class="about__badge-icon">🏆</span>
           <div>
-            <strong>Éleveur certifié</strong>
-            <span>Inscrit au Livre des Origines Français</span>
+            <strong data-i18n="about.badge_title">Certified Breeder</strong>
+            <span data-i18n="about.badge_sub">Registered with the Livre des Origines Français</span>
           </div>
         </div>
       </div>
       <div class="about__content reveal">
-        <span class="section__eyebrow">Notre histoire</span>
-        <h2 class="section__title">Un élevage familial<br />avec passion</h2>
-        <p>Depuis 2014, notre élevage est dédié exclusivement au Golden Retriever. Passionnés par cette race depuis toujours, nous sélectionnons nos reproducteurs avec soin pour garantir des chiots en parfaite santé, au tempérament exemplaire.</p>
-        <p>Nos chiots grandissent dans notre maison, au contact quotidien de nos enfants et de nos animaux. Cette socialisation précoce est essentielle pour former des chiens équilibrés et confiants.</p>
+        <span class="section__eyebrow" data-i18n="about.eyebrow">Our Story</span>
+        <h2 class="section__title" data-i18n-html="about.title">A family breeding<br />with passion</h2>
+        <p data-i18n="about.p1">Since 2014, our breeding has been exclusively dedicated to the Golden Retriever. Passionate about this breed, we carefully select our breeding dogs to guarantee puppies in perfect health with exemplary temperament.</p>
+        <p data-i18n="about.p2">Our puppies grow up in our home, in daily contact with our children and animals. This early socialization is essential for forming balanced and confident dogs.</p>
         <ul class="about__list">
           <li>
             <span class="about__check">✓</span>
-            Chiots inscrits au <strong>Livre des Origines Français (LOF)</strong>
+            <span data-i18n-html="about.list1">Puppies registered with the <strong>Livre des Origines Français (LOF)</strong></span>
           </li>
           <li>
             <span class="about__check">✓</span>
-            Bilan de santé vétérinaire complet avant départ
+            <span data-i18n="about.list2">Complete veterinary health check before departure</span>
           </li>
           <li>
             <span class="about__check">✓</span>
-            Vaccins, vermifuge et puce électronique inclus
+            <span data-i18n="about.list3">Vaccines, deworming and microchip included</span>
           </li>
           <li>
             <span class="about__check">✓</span>
-            Suivi et accompagnement à vie
+            <span data-i18n="about.list4">Lifetime follow-up and support</span>
           </li>
           <li>
             <span class="about__check">✓</span>
-            Garantie santé contractuelle 2 ans
+            <span data-i18n="about.list5">2-year contractual health warranty</span>
           </li>
         </ul>
-        <a href="https://wa.me/237671597988?text=Bonjour%2C%20je%20voudrais%20en%20savoir%20plus%20sur%20votre%20%C3%A9levage%20%F0%9F%90%BE" target="_blank" class="btn btn--primary">Nous contacter sur WhatsApp</a>
+        <a href="https://wa.me/237671597988?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20breeding%20%F0%9F%90%BE" target="_blank" class="btn btn--primary" data-i18n="about.cta">Contact us on WhatsApp</a>
       </div>
     </div>
   </section>
@@ -150,39 +151,39 @@
   <section class="section garanties">
     <div class="container">
       <div class="section__header reveal">
-        <span class="section__eyebrow">Nos engagements</span>
-        <h2 class="section__title">Pourquoi nous choisir ?</h2>
+        <span class="section__eyebrow" data-i18n="garanties.eyebrow">Our Commitments</span>
+        <h2 class="section__title" data-i18n="garanties.title">Why choose us?</h2>
       </div>
       <div class="garanties__grid">
         <div class="garantie-card reveal">
           <div class="garantie-card__icon">🧬</div>
-          <h3>Lignée sélectionnée</h3>
-          <p>Reproducteurs testés pour les pathologies héréditaires (dysplasie, PRA). Pedigrees disponibles sur demande.</p>
+          <h3 data-i18n="garanties.g1_title">Selected Lineage</h3>
+          <p data-i18n="garanties.g1_desc">Breeding dogs tested for hereditary conditions (dysplasia, PRA). Pedigrees available on request.</p>
         </div>
         <div class="garantie-card reveal">
           <div class="garantie-card__icon">💉</div>
-          <h3>Santé garantie</h3>
-          <p>Vaccination complète, vermifugation régulière, identification électronique. Carnet de santé remis à la remise.</p>
+          <h3 data-i18n="garanties.g2_title">Health Guaranteed</h3>
+          <p data-i18n="garanties.g2_desc">Complete vaccination, regular deworming, electronic identification. Health booklet given at handover.</p>
         </div>
         <div class="garantie-card reveal">
           <div class="garantie-card__icon">🏠</div>
-          <h3>Élevé en famille</h3>
-          <p>Socialisé dès la naissance avec enfants, adultes et autres animaux pour un tempérament équilibré et doux.</p>
+          <h3 data-i18n="garanties.g3_title">Raised in Family</h3>
+          <p data-i18n="garanties.g3_desc">Socialized from birth with children, adults and other animals for a balanced and gentle temperament.</p>
         </div>
         <div class="garantie-card reveal">
           <div class="garantie-card__icon">📋</div>
-          <h3>Contrat de vente</h3>
-          <p>Contrat officiel, garantie santé 2 ans contre les maladies congénitales. Nous sommes là en cas de besoin.</p>
+          <h3 data-i18n="garanties.g4_title">Sales Contract</h3>
+          <p data-i18n="garanties.g4_desc">Official contract, 2-year health warranty against congenital diseases. We are there if needed.</p>
         </div>
         <div class="garantie-card reveal">
           <div class="garantie-card__icon">📦</div>
-          <h3>Kit de départ</html>
-          <p>Votre chiot repart avec sa nourriture, son jouet et son couverture — pour faciliter la transition vers sa nouvelle maison.</p>
+          <h3 data-i18n="garanties.g5_title">Starter Kit</h3>
+          <p data-i18n="garanties.g5_desc">Your puppy leaves with food, a toy and a blanket — to ease the transition to their new home.</p>
         </div>
         <div class="garantie-card reveal">
           <div class="garantie-card__icon">💬</div>
-          <h3>Suivi à vie</h3>
-          <p>Nous restons disponibles après l'adoption. Questions d'éducation, de nutrition, de santé — nous sommes là.</p>
+          <h3 data-i18n="garanties.g6_title">Lifetime Support</h3>
+          <p data-i18n="garanties.g6_desc">We remain available after adoption. Education, nutrition, health questions — we are here.</p>
         </div>
       </div>
     </div>
@@ -192,28 +193,28 @@
   <section class="section galerie" id="galerie">
     <div class="container">
       <div class="section__header reveal">
-        <span class="section__eyebrow">En images</span>
-        <h2 class="section__title">La vie à l'élevage</h2>
-        <p class="section__desc">Des moments du quotidien — jeux, câlins, découvertes.</p>
+        <span class="section__eyebrow" data-i18n="galerie.eyebrow">In Pictures</span>
+        <h2 class="section__title" data-i18n="galerie.title">Life at the Breeding</h2>
+        <p class="section__desc" data-i18n="galerie.desc">Everyday moments — play, cuddles, discoveries.</p>
       </div>
       <div class="galerie__grid">
         <div class="galerie__item reveal" style="--delay: 0s">
-          <img src="images/gallery1.jpg" alt="Chiot Golden Retriever" loading="lazy" />
+          <img src="images/gallery1.jpg" alt="Golden Retriever puppy" loading="lazy" />
         </div>
         <div class="galerie__item reveal galerie__item--tall" style="--delay: 0.1s">
-          <img src="images/gallery2.jpg" alt="Chiot Golden Retriever jouant" loading="lazy" />
+          <img src="images/gallery2.jpg" alt="Golden Retriever puppy playing" loading="lazy" />
         </div>
         <div class="galerie__item reveal" style="--delay: 0.2s">
-          <img src="images/gallery3.jpg" alt="Chiot Golden Retriever câlin" loading="lazy" />
+          <img src="images/gallery3.jpg" alt="Golden Retriever puppy cuddling" loading="lazy" />
         </div>
         <div class="galerie__item reveal" style="--delay: 0.3s">
-          <img src="images/gallery4.jpg" alt="Golden Retriever adulte" loading="lazy" />
+          <img src="images/gallery4.jpg" alt="Adult Golden Retriever" loading="lazy" />
         </div>
         <div class="galerie__item reveal galerie__item--wide" style="--delay: 0.4s">
-          <img src="images/gallery5.jpg" alt="Chiots Golden Retriever ensemble" loading="lazy" />
+          <img src="images/gallery5.jpg" alt="Golden Retriever puppies together" loading="lazy" />
         </div>
         <div class="galerie__item reveal" style="--delay: 0.5s">
-          <img src="images/gallery6.jpg" alt="Chiot Golden Retriever portrait" loading="lazy" />
+          <img src="images/gallery6.jpg" alt="Golden Retriever puppy portrait" loading="lazy" />
         </div>
       </div>
     </div>
@@ -223,40 +224,40 @@
   <section class="section temoignages" id="temoignages">
     <div class="container">
       <div class="section__header reveal">
-        <span class="section__eyebrow">Ils nous ont fait confiance</span>
-        <h2 class="section__title">Ce que disent nos familles</h2>
+        <span class="section__eyebrow" data-i18n="temo.eyebrow">They Trusted Us</span>
+        <h2 class="section__title" data-i18n="temo.title">What our families say</h2>
       </div>
       <div class="temoignages__grid">
         <div class="temoignage-card reveal">
           <div class="temoignage-card__stars">★★★★★</div>
-          <p>"Nous avons adopté Sasha il y a 8 mois. Un vrai bonheur ! L'éleveur était disponible, les conseils excellents. Notre fille de 6 ans est inséparable d'elle."</p>
+          <p data-i18n="temo.t1">"We adopted Sasha 8 months ago. Pure joy! The breeder was available, the advice excellent. Our 6-year-old daughter is inseparable from her."</p>
           <div class="temoignage-card__author">
             <div class="temoignage-card__avatar">ML</div>
             <div>
-              <strong>Marie & Luc D.</strong>
-              <span>Paris, adopté en Janvier 2026</span>
+              <strong data-i18n="temo.t1_author">Marie & Luc D.</strong>
+              <span data-i18n="temo.t1_loc">Paris, adopted in January 2026</span>
             </div>
           </div>
         </div>
         <div class="temoignage-card reveal">
           <div class="temoignage-card__stars">★★★★★</div>
-          <p>"Sérieux, professionnel, passionné. Le chiot était parfaitement socialisé à son arrivée. Aucun problème d'intégration. On recommande les yeux fermés !"</p>
+          <p data-i18n="temo.t2">"Serious, professional, passionate. The puppy was perfectly socialized on arrival. No integration issues at all. We recommend wholeheartedly!"</p>
           <div class="temoignage-card__author">
             <div class="temoignage-card__avatar">TP</div>
             <div>
-              <strong>Thomas & Pauline R.</strong>
-              <span>Lyon, adopté en Mars 2026</span>
+              <strong data-i18n="temo.t2_author">Thomas & Pauline R.</strong>
+              <span data-i18n="temo.t2_loc">Lyon, adopted in March 2026</span>
             </div>
           </div>
         </div>
         <div class="temoignage-card reveal">
           <div class="temoignage-card__stars">★★★★★</div>
-          <p>"J'avais peur de me faire avoir par un éleveur peu scrupuleux. Ici, tout est transparent : pedigrees, certificats, visite de l'élevage possible. Biscuit est magnifique !"</p>
+          <p data-i18n="temo.t3">"I was afraid of being taken in by an unscrupulous breeder. Here, everything is transparent: pedigrees, certificates, breeding visit possible. Biscuit is magnificent!"</p>
           <div class="temoignage-card__author">
             <div class="temoignage-card__avatar">SC</div>
             <div>
-              <strong>Sophie C.</strong>
-              <span>Bordeaux, adopté en Avril 2026</span>
+              <strong data-i18n="temo.t3_author">Sophie C.</strong>
+              <span data-i18n="temo.t3_loc">Bordeaux, adopted in April 2026</span>
             </div>
           </div>
         </div>
@@ -268,62 +269,62 @@
   <section class="section faq" id="faq">
     <div class="container faq__inner">
       <div class="section__header reveal">
-        <span class="section__eyebrow">Questions fréquentes</span>
-        <h2 class="section__title">Tout ce que vous<br />devez savoir</h2>
+        <span class="section__eyebrow" data-i18n="faq.eyebrow">Frequently Asked Questions</span>
+        <h2 class="section__title" data-i18n-html="faq.title">Everything you<br />need to know</h2>
       </div>
       <div class="faq__list" id="faq-list">
         <div class="faq__item reveal">
           <button class="faq__question">
-            À quel âge les chiots partent-ils ?
+            <span data-i18n="faq.q1">At what age do puppies leave?</span>
             <span class="faq__icon">+</span>
           </button>
           <div class="faq__answer">
-            <p>Nos chiots partent dans leur nouvelle famille à partir de <strong>8 semaines</strong>, âge légal minimum en France. C'est le bon moment pour la socialisation et l'intégration dans le foyer.</p>
+            <p data-i18n-html="faq.a1">Our puppies join their new family from <strong>8 weeks</strong>, the legal minimum age in France. This is the right time for socialization and home integration.</p>
           </div>
         </div>
         <div class="faq__item reveal">
           <button class="faq__question">
-            Quels documents sont fournis avec le chiot ?
+            <span data-i18n="faq.q2">What documents are provided with the puppy?</span>
             <span class="faq__icon">+</span>
           </button>
           <div class="faq__answer">
-            <p>Chaque chiot part avec : <strong>carnet de santé</strong> (vaccins, vermifuges), <strong>certificat de naissance LOF</strong>, attestation de cession, garantie santé contractuelle et une trousse de départ.</p>
+            <p data-i18n-html="faq.a2">Each puppy leaves with: <strong>health booklet</strong> (vaccines, dewormings), <strong>LOF birth certificate</strong>, sale certificate, contractual health warranty and a starter kit.</p>
           </div>
         </div>
         <div class="faq__item reveal">
           <button class="faq__question">
-            Puis-je visiter l'élevage avant d'adopter ?
+            <span data-i18n="faq.q3">Can I visit the breeding before adopting?</span>
             <span class="faq__icon">+</span>
           </button>
           <div class="faq__answer">
-            <p>Bien sûr et nous l'encourageons ! Vous pourrez rencontrer les parents, voir les conditions d'élevage et observer la portée. Contactez-nous pour planifier une visite.</p>
+            <p data-i18n="faq.a3">Of course and we encourage it! You can meet the parents, see the breeding conditions and observe the litter. Contact us to plan a visit.</p>
           </div>
         </div>
         <div class="faq__item reveal">
           <button class="faq__question">
-            Livrez-vous dans toute la France ?
+            <span data-i18n="faq.q4">Do you deliver throughout France?</span>
             <span class="faq__icon">+</span>
           </button>
           <div class="faq__answer">
-            <p>Oui, nous pouvons organiser le <strong>transport sécurisé</strong> de votre chiot dans toute la France métropolitaine, sous conditions. Renseignez-vous via WhatsApp pour les détails et le coût.</p>
+            <p data-i18n-html="faq.a4">Yes, we can arrange <strong>secure transport</strong> of your puppy throughout metropolitan France, under conditions. Ask us via WhatsApp for details and cost.</p>
           </div>
         </div>
         <div class="faq__item reveal">
           <button class="faq__question">
-            Comment réserver un chiot ?
+            <span data-i18n="faq.q5">How do I reserve a puppy?</span>
             <span class="faq__icon">+</span>
           </button>
           <div class="faq__answer">
-            <p>La réservation se fait via <strong>WhatsApp</strong>. Un acompte de 30% est demandé pour officialiser la réservation. Le solde est réglé à la remise du chiot.</p>
+            <p data-i18n-html="faq.a5">Reservation is done via <strong>WhatsApp</strong>. A 30% deposit is required to confirm the reservation. The balance is paid at puppy handover.</p>
           </div>
         </div>
         <div class="faq__item reveal">
           <button class="faq__question">
-            Quels sont vos tarifs ?
+            <span data-i18n="faq.q6">What are your prices?</span>
             <span class="faq__icon">+</span>
           </button>
           <div class="faq__answer">
-            <p>Le prix varie selon le sexe, la couleur et le pedigree. Nos chiots sont proposés entre <strong>1 500€ et 2 500€</strong>. Chaque fiche chiot affiche le tarif exact. Contactez-nous pour plus d'informations.</p>
+            <p data-i18n-html="faq.a6">The price varies by sex, colour and pedigree. Our puppies are offered between <strong>€1,500 and €2,500</strong>. Each puppy profile shows the exact price. Contact us for more information.</p>
           </div>
         </div>
       </div>
@@ -335,11 +336,11 @@
     <div class="cta-section__bg" style="background-image: url('images/puppy4.jpg')"></div>
     <div class="cta-section__overlay"></div>
     <div class="container cta-section__content reveal">
-      <h2>Votre compagnon idéal<br />vous attend</h2>
-      <p>Des places limitées — réservez dès maintenant via WhatsApp</p>
-      <a href="https://wa.me/237671597988?text=Bonjour%20Golden%20Paws%20!%20Je%20suis%20int%C3%A9ress%C3%A9%20par%20l%E2%80%99adoption%20d%E2%80%99un%20chiot%20Golden%20Retriever%20%F0%9F%90%BE%20Pouvez-vous%20me%20donner%20plus%20d%E2%80%99informations%20%3F" target="_blank" class="btn btn--whatsapp btn--xl">
+      <h2 data-i18n-html="cta.title">Your ideal companion<br />is waiting for you</h2>
+      <p data-i18n="cta.subtitle">Limited spots — book now via WhatsApp</p>
+      <a href="https://wa.me/237671597988?text=Hello%20Golden%20Paws!%20I%20am%20interested%20in%20adopting%20a%20Golden%20Retriever%20puppy%20%F0%9F%90%BE%20Can%20you%20give%20me%20more%20information%3F" target="_blank" class="btn btn--whatsapp btn--xl">
         <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        Nous contacter sur WhatsApp
+        <span data-i18n="cta.btn">Contact us on WhatsApp</span>
       </a>
     </div>
   </section>
@@ -352,41 +353,42 @@
           <span class="logo__icon">🐾</span>
           <span class="logo__text">Golden<strong>Paws</strong></span>
         </a>
-        <p>Élevage familial de Golden Retriever de pure race depuis 2014. LOF · Passion · Confiance.</p>
+        <p data-i18n="footer.tagline">Family breeding of pure-bred Golden Retrievers since 2014. LOF · Passion · Trust.</p>
         <a href="https://wa.me/237671597988" target="_blank" class="footer__wa">
           <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
           +237 6 71 59 79 88
         </a>
       </div>
       <div class="footer__links">
-        <h4>Navigation</h4>
-        <a href="#chiots">Nos chiots</a>
-        <a href="#about">Notre élevage</a>
-        <a href="#galerie">Galerie</a>
-        <a href="#temoignages">Témoignages</a>
-        <a href="#faq">FAQ</a>
+        <h4 data-i18n="footer.nav_title">Navigation</h4>
+        <a href="#chiots" data-i18n="footer.puppies">Our puppies</a>
+        <a href="#about" data-i18n="footer.breeding">Our breeding</a>
+        <a href="#galerie" data-i18n="footer.gallery">Gallery</a>
+        <a href="#temoignages" data-i18n="footer.reviews">Reviews</a>
+        <a href="#faq" data-i18n="footer.faq">FAQ</a>
       </div>
       <div class="footer__links">
-        <h4>Informations</h4>
-        <a href="#">Mentions légales</a>
-        <a href="#">Politique de confidentialité</a>
-        <a href="#">Conditions de vente</a>
-        <a href="#">Livre des Origines Français</a>
+        <h4 data-i18n="footer.info_title">Information</h4>
+        <a href="#" data-i18n="footer.legal">Legal notices</a>
+        <a href="#" data-i18n="footer.privacy">Privacy policy</a>
+        <a href="#" data-i18n="footer.terms">Terms of sale</a>
+        <a href="#" data-i18n="footer.lof">Livre des Origines Français</a>
       </div>
     </div>
     <div class="footer__bottom">
       <div class="container">
-        <p>© 2026 GoldenPaws — Tous droits réservés.</p>
-        <p>Élevage inscrit au LOF · Siret XXXX XXX XXX XXXXX</p>
+        <p data-i18n="footer.copyright">© 2026 GoldenPaws — All rights reserved.</p>
+        <p data-i18n="footer.siret">Breeding registered with LOF · Siret XXXX XXX XXX XXXXX</p>
       </div>
     </div>
   </footer>
 
   <!-- Floating WhatsApp button -->
-  <a href="https://wa.me/237671597988?text=Bonjour%20Golden%20Paws%20!%20Je%20suis%20int%C3%A9ress%C3%A9%20par%20un%20chiot%20%F0%9F%90%BE" target="_blank" class="wa-float" aria-label="Contacter sur WhatsApp">
+  <a href="https://wa.me/237671597988?text=Hello%20Golden%20Paws!%20I%20am%20interested%20in%20a%20puppy%20%F0%9F%90%BE" target="_blank" class="wa-float" aria-label="Contact us on WhatsApp">
     <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
   </a>
 
+  <script src="js/translations.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

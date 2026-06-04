@@ -848,6 +848,35 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 /* ══════════════════════════════════════
+   LANG TOGGLE BUTTON
+══════════════════════════════════════ */
+.lang-toggle {
+  background: transparent;
+  border: 1.5px solid rgba(255,255,255,.45);
+  border-radius: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--white);
+  letter-spacing: .03em;
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
+  white-space: nowrap;
+}
+.lang-toggle:hover {
+  background: rgba(255,255,255,.15);
+  border-color: rgba(255,255,255,.7);
+}
+.header.scrolled .lang-toggle {
+  border-color: rgba(0,0,0,.2);
+  color: var(--text);
+}
+.header.scrolled .lang-toggle:hover {
+  background: rgba(0,0,0,.06);
+  border-color: rgba(0,0,0,.4);
+}
+
+/* ══════════════════════════════════════
    FLOATING WHATSAPP BUTTON
 ══════════════════════════════════════ */
 .wa-float {
